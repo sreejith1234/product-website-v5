@@ -1085,28 +1085,25 @@ color:#fff;
 }
 .text-cap-sub {
 font-family: 'Roboto-Light' !important;
-font-weight: 300;
 font-size: 24px;
-fill: #afafaf;
-color: #afafaf;
+fill: #ffffff;
+opacity: 0.7;
 }
 .text-cap-sub_1 {
 font-family: 'Roboto-Light' !important;
-font-weight: 300;
 font-size: 24px;
 fill: #fff;
 }
 .text-cap-sub-2 {
     font-family: 'Roboto-Light' !important;
-    font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     fill: #ffffff;
 }
 .text-cap-sub-1 {
 font-family: 'Roboto-Light' !important;
-font-weight: 300;
-font-size: 16px;
-fill: #afafaf;
+font-size: 18px;
+fill: #ffffff;
+opacity: 0.7;
 }
 .content-split {
 transform: translate(0%, 0%);
@@ -1223,15 +1220,14 @@ a{
 
 .scroll-head tspan {
     fill: #fff;
-    font-family: 'Roboto-Bold' !important;
+    font-family: 'Roboto-Light' !important;
     font-size: 50px;
 }
 
 .scroll-sub tspan {
     fill: #fff;
-    font-family: 'Roboto-Regular' !important;
-    font-size: 30px;
-    font-weight: 200;
+    font-family: 'Roboto-Light' !important;
+    font-size: 32px;
 }
 
 .scroll-img img {
