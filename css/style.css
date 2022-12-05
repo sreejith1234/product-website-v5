@@ -1228,6 +1228,7 @@ a{
     fill: #fff;
     font-family: 'Roboto-Light' !important;
     font-size: 32px;
+    opacity: 0.7;
 }
 
 .scroll-img img {
