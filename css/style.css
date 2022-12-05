@@ -387,7 +387,7 @@ body{
     color: #0a2e93;
     font-family: 'Roboto-Regular';
     font-size: 18px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 #p1, #p2, #p3, #p4, #p5{
     cursor: pointer;
@@ -1230,7 +1230,9 @@ a{
     font-size: 32px;
     opacity: 0.7;
 }
-
+.footer-link a{
+    color:#fff;
+}
 .scroll-img img {
     width: 100%;
     height: 100%;
