@@ -699,6 +699,11 @@
         width: 100% !important;
         top: 17% !important;
     }
+    .carousel-caption-4 {
+        left: 5% !important;
+        width: 90% !important;
+        top: 17% !important;
+    }
 
     .carousel-inner {
         height: 100% !important;
