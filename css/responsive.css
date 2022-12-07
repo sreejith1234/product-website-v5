@@ -765,6 +765,9 @@
     .text-high {
         font-size: 22px !important;
     }
+    .slider-data .slider1-text-1{
+        padding-bottom:15px;
+    }
     .slider-img {
         width: auto !important;
         height: 100vh;
