@@ -1373,6 +1373,7 @@ a{
 .slider-data{
     display: none;
 }
+.text-high{font-size:26px;color: #fff !important;}
 /*  scrollbar */
 
 ::-webkit-scrollbar-track
