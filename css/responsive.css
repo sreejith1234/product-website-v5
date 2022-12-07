@@ -762,6 +762,9 @@
     .carousel-indicator {
         bottom: 10% !important;
     }
+    .text-high {
+        font-size: 22px !important;
+    }
     .slider-img {
         width: auto !important;
         height: 100vh;
