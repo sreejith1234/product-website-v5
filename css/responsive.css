@@ -780,6 +780,7 @@
     }
     .slider1-text-2 p {
         font-size: 20px !important;
+        line-height: 30px !important;
     }
     .carousel-caption svg{
         display: none;
@@ -824,8 +825,8 @@
     .slider-data{
         width: 100%;
         background: #054084;
-        border-radius: 20px;
-        padding: 25px;
+        border-radius: 10px;
+        padding: 30px;
     }
     .carousel-inner {
         height: 100vh !important;
