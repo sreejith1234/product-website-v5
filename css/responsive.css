@@ -39,6 +39,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #productsection{
+        display: none;
+    }
+    #product-section-resview{
+        display: block;
+    }
     .contact-card{
         flex-direction: column !important;
     }
