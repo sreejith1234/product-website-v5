@@ -44,6 +44,7 @@
     }
     #product-section-resview{
         display: block;
+        padding-top:50px;
     }
     .contact-card{
         flex-direction: column !important;
