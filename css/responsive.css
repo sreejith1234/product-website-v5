@@ -767,27 +767,29 @@
     }
 
     .slider-img {
-        width: 150% !important;
+        width: auto !important;
+        height: 100vh;
     }
 
     .carousel-caption {
         left: 5% !important;
         width: 100% !important;
+        top: 30% !important;
     }
 
     .carousel-caption-2 {
         left: 5% !important;
         width: 100% !important;
-        top: 17% !important;
+        top: 30% !important;
     }
     .carousel-caption-4 {
         left: 5% !important;
         width: 90% !important;
-        top: 17% !important;
+        top: 39% !important;
     }
 
     .carousel-inner {
-        height: 100% !important;
+        height: 100vh !important;
     }
 
     #box-main {
