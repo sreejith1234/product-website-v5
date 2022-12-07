@@ -13,6 +13,9 @@
 }
 .contact-section {
     padding: 0px 0px;
+    top: 27%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #contact{
@@ -58,6 +61,15 @@ label{
     width: 130px;
     margin: 25px 0px 0px 0px;
     font-size: 14px;
+}
+.contact-text p{
+  color: #1d294d;
+}
+.contact-img img{
+  width:450px
+}
+.contact-img{
+  padding:30px;
 }
 .contact-submit-btn:hover{
   color: #1d294d;
