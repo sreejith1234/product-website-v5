@@ -171,17 +171,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="container-fluid my-3">
+<div class="container-fluid my-3" id="product-section-resview">
     <div class="tab-card-header">
       <!-- START TABS DIV -->
       <div class="tabbable-responsive">
         <div class="tabbable">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#datavault">Datavault</a>
+                <a class="nav-link active" data-bs-toggle="tab" href="#data-vault">Datavault</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#htm">HTM</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#htm_rv">HTM</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#shd-ap">SHD-AP</a>
@@ -199,8 +199,8 @@
         </div>
       </div>
     </div>
-     <div class="tab-content">
-        <div class="tab-pane fade show active" id="datavault" role="tabpanel" aria-labelledby="first-tab">
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="data-vault" role="tabpanel" aria-labelledby="first-tab">
             <div class="product-details">
                 <div class="container-fluid">
                     <h6 class="heading-sub">data PAAS for healthcare</h6>
@@ -230,7 +230,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="htm" role="tabpanel" aria-labelledby="second-tab">
+        <div class="tab-pane fade" id="htm_rv" role="tabpanel" aria-labelledby="second-tab">
            <div class="product-details">
             <div class="container-fluid">
                 <h6 class="heading-sub">Hāpaitia te Hauora Manawa (HTM)</h6>
@@ -376,51 +376,11 @@
                     </div>
                 </div>
         </div>
-      </div>
-  </div>
-<style>
-.tabbable-responsive {
-     display: block;
-     min-width: 100%;
-     overflow-x: auto;
-     margin: 0px 0px 0px 0px;
-}
- .tabbable {
-     min-width: 100%;
-}
- .tabbable .nav-tabs {
-     white-space: nowrap;
-     display: inline-block;
-     min-width: 100%;
-     padding: 0px 10px;
-}
- .tabbable .nav-tabs .nav-item {
-     display: inline-block;
-}
- .tabbable .nav-tabs .nav-item .nav-link {
-     display: inline-block;
-}
-.tabbable .nav-tabs .nav-item .nav-link.active {
-    color: #ffffff;
-    background-color: #101d42;
-    border-color: #101d42 #101d42 #101d42;
-} 
-.tabbable .nav-tabs .nav-item .nav-link{
-    color: #101d42;
-}
-::-webkit-scrollbar {
-    width: 0px !important;
-    height: 5px !important;
-    background-color: #F5F5F5;
-}
+    </div>
+</div>
 
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    background-color: #a9a9a9;
-}
-</style>
-            <div style="display:none;" class="product-section" id="productsection">
+<section id="productsection">
+            <div class="product-section">
                 <div  class="graph">
                     <svg id="Layer_51" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.53 48.65">
                         <path id="p5" class="cls-1" d="M55.8,61.83H41.27a9.34,9.34,0,0,0-6.62,3.35A9.83,9.83,0,0,0,32.41,71,10.14,10.14,0,0,0,34,76.49a12.68,12.68,0,0,0,2.56,2.64,6.27,6.27,0,0,0,2.27,1.21,15.54,15.54,0,0,0,2.13.42,8.13,8.13,0,0,1-2.85-1.2,7.73,7.73,0,0,1-1.77-2.12,5.9,5.9,0,0,1-.75-2.82,6.84,6.84,0,0,1,.67-3.05,6.4,6.4,0,0,1,3.09-3A6.16,6.16,0,0,1,41.14,68l7.18,0h1.52a6.3,6.3,0,0,0,5.45-3.7A6.79,6.79,0,0,0,55.8,61.83Z" transform="translate(-17.62 -33.13)" />
@@ -632,6 +592,7 @@
                     </div>
                 </div>
             </div>
+        </section>
             <div class="card-wave">
                 <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 230" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <defs>
