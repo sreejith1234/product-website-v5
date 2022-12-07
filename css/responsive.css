@@ -8,11 +8,79 @@
     .carousel-inner {
         height: 100% !important;
     }
+
+}
+@media only screen and (max-width: 1200px) {
+        .contact-card{
+        flex-direction: column !important;
+    }
+    .contact-text {
+        padding: 25px 0px;
+    }
+    .form-line{
+        width:100%;
+    }
+    #contact{
+        height:100%;
+    }
+    .contact-section {
+        height:100%;
+    }
+    .section-content{
+        padding-top: 25%;
+    }
+    .contact-content {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+
 }
 
-@media only screen and (max-width: 992px) {}
-
 @media only screen and (max-width: 768px) {
+    .contact-card{
+        flex-direction: column !important;
+    }
+    .contact-cus{
+  transform: translate(0%, 15%);
+}
+    .contact-text {
+        padding: 25px 0px;
+    }
+    .form-line{
+        width:100%;
+    }
+    #contact{
+        height:100%;
+    }
+    .contact-section {
+        height:100%;
+    }
+    .section-content{
+        padding-top: 25%;
+    }
+    .contact-content {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .graph {
+        width: 100%;
+        padding: 50px 25px;
+    }
+    .flag {
+        width: 40px;
+    }
+    .footer-logo-img{
+        display: none;
+    }
+    .product-details {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    .product-section {
+        flex-wrap: wrap;
+    }
     .product1_slider_bg {
         height: auto;
         padding: 20px;
@@ -169,6 +237,10 @@
 	.showcase p {
     	font-size: 14px;
 	}
+    .content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 	.flag-section {
     	padding-top: 7px;
     	padding-left: 7px;
@@ -467,7 +539,7 @@
         font-family: 'Roboto-Light' !important;
         font-weight: 300;
         font-size: 18px;
-        color: #afafaf;
+        color: #ffffff;
     }
 
     .about-sub2_rv .text-cap-sub_1 {
@@ -482,7 +554,7 @@
         font-size: 14px;
         margin-bottom: 0rem;
         margin-top: 0px;
-        color: #afafaf;
+        color: #ffffff;
     }
 
     .about-content_rv {
@@ -611,6 +683,7 @@
     .heading-sub {
         width: 100%;
         font-size: 22px;
+        margin-bottom: 15px;
     }
 
     .text-p {
@@ -623,6 +696,7 @@
 
     .product-section {
         flex-wrap: wrap;
+        padding-top: 15px;
     }
 
     .graph {
@@ -632,7 +706,7 @@
 
     .product-details {
         width: 100%;
-        padding: 20px 20px 20px 20px;
+        padding: 25px 0px 20px 0px;
     }
 
     .footer .col-6 {
