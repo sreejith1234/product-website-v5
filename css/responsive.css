@@ -756,11 +756,12 @@
         padding: 3px 5px;
         font-size: 12px;
     }
-
     .copyright {
         font-size: 12px;
     }
-
+    .carousel-indicator {
+        bottom: 10% !important;
+    }
     .slider-img {
         width: auto !important;
         height: 100vh;
